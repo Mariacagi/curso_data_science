@@ -1,0 +1,11 @@
+A strin to write
+A string to write
+A string to write
+0
+A string to write
+1
+A string to write
+2
+A string to write0
+A string to write1
+A string to write2
