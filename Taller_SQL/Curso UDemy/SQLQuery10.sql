@@ -1,0 +1,17 @@
+IF (2+2=5)
+BEGIN
+	SELECT 'ES CIERTO'
+END
+ELSE
+BEGIN
+	SELECT 'ES FALSO'
+END
+
+
+DECLARE @Fecha DATE = '2021-06-05'
+SELECT
+CASE WHEN MONTH(@Fecha) = 4 THEN 'Abril'
+WHEN MONTH(@Fecha) = 5 THEN 'Mayo'
+WHEN MONTH(@Fecha) = 6 THEN 'Junio'
+ELSE 'No se el mes'
+END
